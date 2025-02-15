@@ -1,7 +1,7 @@
 <template>
+  <h1>Hello world</h1>
  <UModal v-model="isResultModalOpen" class="custom-modal">
   <UCard class="p-4">
-    <!-- Заголовок -->
     <h2 class="text-2xl font-bold text-center mb-4">{{ userLevel.title }}</h2>
     <!-- Описание уровня -->
     <p class="text-gray-500 text-center mb-4">{{ userLevel.description }}</p>
