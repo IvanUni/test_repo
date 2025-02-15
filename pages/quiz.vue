@@ -3,17 +3,14 @@
   <UCard class="p-4">
     <!-- Заголовок -->
     <h2 class="text-2xl font-bold text-center mb-4">{{ userLevel.title }}</h2>
-
     <!-- Описание уровня -->
     <p class="text-gray-500 text-center mb-4">{{ userLevel.description }}</p>
-
     <!-- Картинка -->
     <img
       src="https://placehold.co/300x200"
       alt="Гусь"
       class="mx-auto mb-4 w-full max-w-[300px]"
     />
-
     <!-- Результат -->
     <p class="text-gray-500 text-center mb-4">
       Ты ответил правильно на {{ correctAnswers }} из {{ questions.length }} вопросов.
