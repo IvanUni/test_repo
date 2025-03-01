@@ -1,5 +1,5 @@
 <template>
-
+ <h1>Это кликер</h1>
 
   <div className="px-4 mt-6 flex justify-between gap-2">
     <div className="bg-[#2b5a90] rounded-lg px-4 py-2 w-full relative">
